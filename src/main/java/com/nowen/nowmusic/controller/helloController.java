@@ -1,5 +1,6 @@
 package com.nowen.nowmusic.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2022/4/18
  */
 @RestController
+@CrossOrigin
 public class helloController {
 
     @GetMapping("/hello")
